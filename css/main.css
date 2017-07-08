@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Gochi+Hand|VT323);
+/* GLOBAL */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #212121;
+  font-family: "Gochi Hand";
+  color: #cccccc;
+  font-size: 2.4rem;
+}
+
+button {
+  border: none;
+}
+
+a {
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+h1.header {
+  font-size: 5rem;
+}
+
+.box {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  background-color: #C2C1AA;
+  border-radius: 50%;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68);
+}
+.box .box-wrap {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+.row div {
+  display: inline-block;
+}
+
+.btn-press {
+  border: solid 10px #C2C1AA;
+  width: 380px;
+  height: 180px;
+}
+
+#green {
+  border-top-left-radius: 100%;
+}
+
+.green {
+  background-color: #16a085;
+}
+
+.green2 {
+  background-color: #1abc9c;
+}
+
+#red {
+  border-top-right-radius: 100%;
+}
+
+.red {
+  background-color: #c0392b;
+}
+
+.red2 {
+  background-color: #e74c3c;
+}
+
+#yellow {
+  border-bottom-left-radius: 100%;
+}
+
+.yellow {
+  background-color: #f1a30f;
+}
+
+.yellow2 {
+  background-color: #f1c40f;
+}
+
+#blue {
+  border-bottom-right-radius: 100%;
+}
+
+.blue {
+  background-color: #2980b9;
+}
+
+.blue2 {
+  background-color: #3498db;
+}
+
+.interface {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #C2C1AA;
+}
+
+.interface-wrap {
+  position: relative;
+  margin-top: 30px;
+}
+.interface-wrap .level {
+  margin: 0 auto;
+  width: 120px;
+  height: 40px;
+  background-color: #2E060E;
+  border-radius: 10px;
+  font-family: "VT323";
+  font-size: 3rem;
+  line-height: 3.8rem;
+}
+.interface-wrap .mode {
+  margin-top: 20px;
+}
+.interface-wrap .mode .start {
+  display: inline-block;
+  margin-left: -12px;
+  width: 80px;
+  height: 80px;
+  background-color: #b31217;
+  border-radius: 50%;
+  color: #cccccc;
+  line-height: 8.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.interface-wrap .mode .start:hover {
+  background-color: #e52d27;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.interface-wrap .mode #strict {
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: #4a4a4a;
+  line-height: 6rem;
+}
+.interface-wrap .mode #strict:after {
+  position: absolute;
+  content: 'Strict';
+  left: -14px;
+  top: 36px;
+  line-height: 3.2rem;
+}
+.interface-wrap .mode .strict-inactive {
+  background-color: #b31217;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.interface-wrap .mode .strict-active {
+  background-color: #e52d27;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
