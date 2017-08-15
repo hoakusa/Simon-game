@@ -1,4 +1,4 @@
-# Tic tac toe
+# Simon Game
 
 Go to play at [Demo](http://simongame.hoakusa.com) or [Codepen](https://codepen.io/hoakusa/full/wevVKw/).
 
